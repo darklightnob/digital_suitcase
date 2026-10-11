@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5f0">
+  <meta name="description" content="Pack smart. Panic less. Probably. A practical travel packing planner with custom items and weight tracking.">
+  <title>Digital Suitcase — Practical travel packing planner</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="app-shell">
+    <header class="site-header" id="site-header">
+      <a class="brand" href="#home" aria-label="Digital Suitcase home" data-action="go-home" title="Go to home page">
+        <span class="brand-mark" aria-hidden="true"><span></span><span></span><span></span></span>
+        <span>DIGITAL<span class="brand-light"> SUITCASE</span></span>
+      </a>
+      <div class="header-right">
+        <div class="journey-progress" id="journey-progress" aria-label="Packing planner progress" hidden>
+          <span class="progress-label" id="progress-label">GET READY</span>
+          <div class="progress-dots" id="progress-dots" aria-hidden="true"></div>
+        </div>
+        <span class="edition-pill"><span class="status-dot"></span> TRAVEL PACKING PLANNER</span>
+      </div>
+    </header>
+
+    <main id="app" tabindex="-1" aria-live="polite">
+      <div class="boot-state"><div class="boot-spinner"></div><p>Untangling your packing decisions…</p></div>
+    </main>
+
+    <footer class="site-footer">
+      <span>DIGITAL SUITCASE <span class="footer-dot">/</span> A practical travel packing planner</span>
+      <span>ESTIMATED WEIGHTS · CHECK YOUR BAGGAGE RULES</span>
+    </footer>
+  </div>
+
+  <div class="toast-region" id="toast-region" aria-live="polite" aria-atomic="true"></div>
+  <div class="modal-backdrop" id="modal-backdrop" hidden>
+    <section class="modal-panel" id="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
+      <button class="modal-close icon-button" type="button" aria-label="Close dialog" data-action="close-modal">×</button>
+      <div id="modal-content"></div>
+    </section>
+  </div>
+</body>
+</html>
