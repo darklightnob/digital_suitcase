@@ -198,6 +198,8 @@ immigration, customs, airline baggage, or security requirements. Always
 verify entry documents, restricted items, and baggage rules with the
 relevant government, airport, and airline before travelling.
 
+VIDEO LINK: 
+
 ------------------------------------------------------------------------
 
 **Digital Suitcase --- Pack with a plan. Travel with confidence.**
